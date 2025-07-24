@@ -271,13 +271,9 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
+    background: url(https://as2.ftcdn.net/v2/jpg/04/61/88/75/1000_F_461887541_ubP8JxYZIbqGJCzIYciGK9O6S27g8Ztq.jpg);
+    background-size: cover;
+    clip-path: unset;
   body.no-ember .background-container {
     display: none;
   }

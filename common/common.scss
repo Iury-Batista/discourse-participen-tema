@@ -266,14 +266,7 @@ html {
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
   .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: url(https://as2.ftcdn.net/v2/jpg/04/61/88/75/1000_F_461887541_ubP8JxYZIbqGJCzIYciGK9O6S27g8Ztq.jpg);
-    background-size: cover;
-    clip-path: unset
+    background-color: #004591;
   }
   body.no-ember .background-container {
     display: none;

@@ -75,7 +75,7 @@
 
 // Main customizations
 .wrap {
-  max-width: 1350px !important;
+  max-width: 1300px !important;
   margin: 0 auto;
   width: 100%;
 }
@@ -266,6 +266,14 @@ html {
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
   .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://as2.ftcdn.net/v2/jpg/04/61/88/75/1000_F_461887541_ubP8JxYZIbqGJCzIYciGK9O6S27g8Ztq.jpg);
+    background-size: cover;
+    clip-path: unset
   }
   body.no-ember .background-container {
     display: none;
@@ -278,7 +286,7 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  max-width: 1350px;
+  max-width: 1300px;
   .archetype-regular & {
     min-height: 500px;
   }

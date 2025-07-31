@@ -75,7 +75,7 @@
 
 // Main customizations
 .wrap {
-  max-width: 1300px !important;
+  max-width: 1250px !important;
   margin: 0 auto;
   width: 100%;
 }
@@ -286,7 +286,7 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  max-width: 1300px;
+  max-width: 1250px;
   .archetype-regular & {
     min-height: 500px;
   }

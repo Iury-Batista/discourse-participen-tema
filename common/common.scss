@@ -75,7 +75,7 @@
 
 // Main customizations
 .wrap {
-  max-width: 1400px !important;
+  max-width: 1350px !important;
   margin: 0 auto;
   width: 100%;
 }
@@ -266,7 +266,6 @@ html {
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
   .background-container {
-    background-color: #004591;
   }
   body.no-ember .background-container {
     display: none;
@@ -279,7 +278,7 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  max-width: 1400px;
+  max-width: 1350px;
   .archetype-regular & {
     min-height: 500px;
   }

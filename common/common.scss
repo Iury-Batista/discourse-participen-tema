@@ -529,15 +529,12 @@ html body #main-outlet {
 // published page additions
 .published-page-content-wrapper {
   max-width: 1400px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  background: var(--secondary);
-  border-radius: 1em;
+  margin: 40px auto 60px;
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-hover) 100%);
+  border-radius: 1.5em;
   padding: 3em 3em 5%;
-  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   z-index: 1;
   position: relative;
 }

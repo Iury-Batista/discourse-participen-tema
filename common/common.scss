@@ -258,28 +258,11 @@ div.ac-wrap {
 
 html {
   body:not(.no-ember) {
-    background: linear-gradient(
-        0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
-      ),
-      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: rgba(var(--secondary-rgb), 0.9); /* 0.9 deixa 10% mais escuro */
   }
   .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
-  body.no-ember .background-container {
-    display: none;
+    background: rgba(var(--secondary-rgb), 0.9);
+    clip-path: none; /* Remove a forma se não quiser recorte */
   }
 }
 
@@ -552,13 +535,13 @@ html body #main-outlet {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%);
-  content: " ";
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: fixed;
-  z-index: 0;
+    clip-path: ellipse(148% 70% at 91% -14%);
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    z-index: 0;
   }
 }
 

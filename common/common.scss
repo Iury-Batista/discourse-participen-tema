@@ -578,3 +578,7 @@ html body #main-outlet {
 .ember-text-field {
   color: var(--primary);
 }
+
+.combo-box-header.category-drop-header {
+  display: none;
+}

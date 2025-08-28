@@ -21,7 +21,14 @@
   }
 }
 
-
+body.has-sidebar-page { 
+  #main-outlet-wrapper {
+    padding-left: 8px;
+  }
+  #main-outlet {
+    max-width: unset;
+  }
+}
 
 .desktop-view .sidebar-footer-wrapper .sidebar-footer-container::before {
   background: linear-gradient(
